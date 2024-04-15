@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(168, 185, 179);
+}
+.pg{
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    background-color: azure;
+}
+.btn{
+    margin: 20px;
+}
+.chgr{
+    margin: 20px;
+}
+
+input[type='text']{
+   
+    flex: 1;
+    padding: 10px;
+    width: 300px;
+}
+
